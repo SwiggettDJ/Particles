@@ -135,9 +135,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -2413
-    y: -255
+    y: -254
     width: 5339
-    height: 5459
+    height: 5438
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -235,7 +235,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.15
+      m_SerializableObject: 0.4
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -249,7 +249,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":21.445018768310548,"g":255.99996948242188,"b":248.3780517578125,"a":1.0}'
+      m_SerializableObject: '{"r":255.99996948242188,"g":21.445018768310548,"b":149.20143127441407,"a":1.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -16658,7 +16658,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.15
+      m_SerializableObject: 0.4
     m_Space: 2147483647
   m_Property:
     name: o
