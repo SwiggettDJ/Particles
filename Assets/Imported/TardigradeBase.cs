@@ -9,7 +9,7 @@ namespace Imported
     /// The base class for all tardigrade types.
     /// <remarks>Written by DJ</remarks>
     /// </summary>
-    public abstract class TardigradeBase : MonoBehaviour, IDamageable
+    public class TardigradeBase : MonoBehaviour, IDamageable
     {
         public float _health;
         public float _maxHealth;
