@@ -48,6 +48,9 @@ namespace Imported
                                 tempMaterials[i] = stoneBurnable;
                                 stoneGeo.gameObject.SetActive(true);
                                 break;
+                            case Elem.Neutral:
+                                tempMaterials[i] = renderer.materials[i];
+                                break;
                         }
                     }
                     else
