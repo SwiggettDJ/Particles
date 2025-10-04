@@ -256,6 +256,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     - _alphaclip: 0.48
+    - _blend: 0
     - _min: -0.33
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
