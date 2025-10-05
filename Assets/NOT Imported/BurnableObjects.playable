@@ -68,7 +68,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0.32545016451961717
     m_ClipIn: 0
-    m_Asset: {fileID: -5245622462891747188}
+    m_Asset: {fileID: 9201987378948053493}
     m_Duration: 2.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8688746151795714294}
@@ -270,10 +270,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 0.18333333333333332
     m_ClipIn: 0
     m_Asset: {fileID: 4661936823808433425}
-    m_Duration: 1.55
+    m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8177529874526617500}
     m_EaseInDuration: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 0
+    m_PreExtrapolationTime: 0.18333333333333332
     m_DisplayName: EmberIncrease
   m_Markers:
     m_Objects: []
@@ -644,77 +644,6 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &-5245622462891747188
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
-  m_Name: VisualEffectControlClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  scrubbing: 1
-  startSeed: 0
-  reinit: 3
-  prewarm:
-    enable: 0
-    stepCount: 20
-    deltaTime: 0.05
-    eventName:
-      m_Name: OnPlay
-  clipEvents:
-  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
-    enter:
-      time: 0
-      timeSpace: 0
-      name:
-        m_Name: OnPlay
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.6
-      timeSpace: 0
-      name:
-        m_Name: OnStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    enter:
-      time: 0.4
-      timeSpace: 0
-      name:
-        m_Name: Smoke
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.46
-      timeSpace: 0
-      name:
-        m_Name: SmokeStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0, g: 0, b: 0, a: 1}
-    enter:
-      time: 0.59
-      timeSpace: 0
-      name:
-        m_Name: Ash
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.67
-      timeSpace: 0
-      name:
-        m_Name: AshStop
-      eventAttributes:
-        content: []
-  singleEvents: []
-  references:
-    version: 2
-    RefIds: []
 --- !u!114 &-5238767301541529841
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -783,7 +712,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 1.0833333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 420229283000640399}
+    m_Asset: {fileID: 5673106253243633863}
     m_Duration: 2.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4292449797749041596}
@@ -877,7 +806,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 1.5333333333333334
     m_ClipIn: 0
-    m_Asset: {fileID: 698746352729991303}
+    m_Asset: {fileID: 1912161280376223341}
     m_Duration: 2.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4157044023812328763}
@@ -947,7 +876,7 @@ MonoBehaviour:
     m_Objects: []
   m_VFXVersion: 1
   reinit: 3
---- !u!114 &-4106090695165069281
+--- !u!114 &-4050638037589657354
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -957,7 +886,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
-  m_Name: VisualEffectControlClip(Clone)(Clone)(Clone)
+  m_Name: VisualEffectControlClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   scrubbing: 1
   startSeed: 0
@@ -978,7 +907,7 @@ MonoBehaviour:
       eventAttributes:
         content: []
     exit:
-      time: 1.6
+      time: 1.2
       timeSpace: 0
       name:
         m_Name: OnStop
@@ -1042,7 +971,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0.7333333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 6952631438830016925}
+    m_Asset: {fileID: -4050638037589657354}
     m_Duration: 2.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3293080758317340917}
@@ -1813,149 +1742,7 @@ MonoBehaviour:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
-  m_MarkerTrack: {fileID: 0}
---- !u!114 &420229283000640399
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
-  m_Name: VisualEffectControlClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  scrubbing: 1
-  startSeed: 0
-  reinit: 3
-  prewarm:
-    enable: 0
-    stepCount: 20
-    deltaTime: 0.05
-    eventName:
-      m_Name: OnPlay
-  clipEvents:
-  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
-    enter:
-      time: 0
-      timeSpace: 0
-      name:
-        m_Name: OnPlay
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.6
-      timeSpace: 0
-      name:
-        m_Name: OnStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    enter:
-      time: 0.4
-      timeSpace: 0
-      name:
-        m_Name: Smoke
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.46
-      timeSpace: 0
-      name:
-        m_Name: SmokeStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0, g: 0, b: 0, a: 1}
-    enter:
-      time: 0.59
-      timeSpace: 0
-      name:
-        m_Name: Ash
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.67
-      timeSpace: 0
-      name:
-        m_Name: AshStop
-      eventAttributes:
-        content: []
-  singleEvents: []
-  references:
-    version: 2
-    RefIds: []
---- !u!114 &698746352729991303
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
-  m_Name: VisualEffectControlClip(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  scrubbing: 1
-  startSeed: 0
-  reinit: 3
-  prewarm:
-    enable: 0
-    stepCount: 20
-    deltaTime: 0.05
-    eventName:
-      m_Name: OnPlay
-  clipEvents:
-  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
-    enter:
-      time: 0
-      timeSpace: 0
-      name:
-        m_Name: OnPlay
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.6
-      timeSpace: 0
-      name:
-        m_Name: OnStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    enter:
-      time: 0.4
-      timeSpace: 0
-      name:
-        m_Name: Smoke
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.46
-      timeSpace: 0
-      name:
-        m_Name: SmokeStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0, g: 0, b: 0, a: 1}
-    enter:
-      time: 0.59
-      timeSpace: 0
-      name:
-        m_Name: Ash
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.67
-      timeSpace: 0
-      name:
-        m_Name: AshStop
-      eventAttributes:
-        content: []
-  singleEvents: []
-  references:
-    version: 2
-    RefIds: []
+  m_MarkerTrack: {fileID: 5941599210616041919}
 --- !u!114 &715118983705778680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2198,6 +1985,77 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &1912161280376223341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
+  m_Name: VisualEffectControlClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  scrubbing: 1
+  startSeed: 0
+  reinit: 3
+  prewarm:
+    enable: 0
+    stepCount: 20
+    deltaTime: 0.05
+    eventName:
+      m_Name: OnPlay
+  clipEvents:
+  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
+    enter:
+      time: 0
+      timeSpace: 0
+      name:
+        m_Name: OnPlay
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.2
+      timeSpace: 0
+      name:
+        m_Name: OnStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    enter:
+      time: 0.4
+      timeSpace: 0
+      name:
+        m_Name: Smoke
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.46
+      timeSpace: 0
+      name:
+        m_Name: SmokeStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0, g: 0, b: 0, a: 1}
+    enter:
+      time: 0.59
+      timeSpace: 0
+      name:
+        m_Name: Ash
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.67
+      timeSpace: 0
+      name:
+        m_Name: AshStop
+      eventAttributes:
+        content: []
+  singleEvents: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &2693752074053675527
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2494,6 +2352,77 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &3211169271988049786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
+  m_Name: VisualEffectControlClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  scrubbing: 1
+  startSeed: 0
+  reinit: 3
+  prewarm:
+    enable: 0
+    stepCount: 20
+    deltaTime: 0.05
+    eventName:
+      m_Name: OnPlay
+  clipEvents:
+  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
+    enter:
+      time: 0
+      timeSpace: 0
+      name:
+        m_Name: OnPlay
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.2
+      timeSpace: 0
+      name:
+        m_Name: OnStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    enter:
+      time: 0.4
+      timeSpace: 0
+      name:
+        m_Name: Smoke
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.46
+      timeSpace: 0
+      name:
+        m_Name: SmokeStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0, g: 0, b: 0, a: 1}
+    enter:
+      time: 0.59
+      timeSpace: 0
+      name:
+        m_Name: Ash
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.67
+      timeSpace: 0
+      name:
+        m_Name: AshStop
+      eventAttributes:
+        content: []
+  singleEvents: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &3726239995216914492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2547,7 +2476,7 @@ MonoBehaviour:
       eventAttributes:
         content: []
     exit:
-      time: 1.6
+      time: 1.2
       timeSpace: 0
       name:
         m_Name: OnStop
@@ -2988,6 +2917,77 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &5673106253243633863
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
+  m_Name: VisualEffectControlClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  scrubbing: 1
+  startSeed: 0
+  reinit: 3
+  prewarm:
+    enable: 0
+    stepCount: 20
+    deltaTime: 0.05
+    eventName:
+      m_Name: OnPlay
+  clipEvents:
+  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
+    enter:
+      time: 0
+      timeSpace: 0
+      name:
+        m_Name: OnPlay
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.2
+      timeSpace: 0
+      name:
+        m_Name: OnStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    enter:
+      time: 0.4
+      timeSpace: 0
+      name:
+        m_Name: Smoke
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.46
+      timeSpace: 0
+      name:
+        m_Name: SmokeStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0, g: 0, b: 0, a: 1}
+    enter:
+      time: 0.59
+      timeSpace: 0
+      name:
+        m_Name: Ash
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.67
+      timeSpace: 0
+      name:
+        m_Name: AshStop
+      eventAttributes:
+        content: []
+  singleEvents: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &5724005022478238649
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 1.3000000000000007
     m_ClipIn: 0
-    m_Asset: {fileID: -4106090695165069281}
+    m_Asset: {fileID: 3211169271988049786}
     m_Duration: 2.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5929561175605467023}
@@ -3104,6 +3104,29 @@ MonoBehaviour:
     m_Objects: []
   m_VFXVersion: 1
   reinit: 3
+--- !u!114 &5941599210616041919
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a16748d9461eae46a725db9776d5390, type: 3}
+  m_Name: Markers
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &6553341884790247562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3126,77 +3149,6 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &6952631438830016925
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
-  m_Name: VisualEffectControlClip(Clone)
-  m_EditorClassIdentifier: 
-  scrubbing: 1
-  startSeed: 0
-  reinit: 3
-  prewarm:
-    enable: 0
-    stepCount: 20
-    deltaTime: 0.05
-    eventName:
-      m_Name: OnPlay
-  clipEvents:
-  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
-    enter:
-      time: 0
-      timeSpace: 0
-      name:
-        m_Name: OnPlay
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.6
-      timeSpace: 0
-      name:
-        m_Name: OnStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    enter:
-      time: 0.4
-      timeSpace: 0
-      name:
-        m_Name: Smoke
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.46
-      timeSpace: 0
-      name:
-        m_Name: SmokeStop
-      eventAttributes:
-        content: []
-  - editorColor: {r: 0, g: 0, b: 0, a: 1}
-    enter:
-      time: 0.59
-      timeSpace: 0
-      name:
-        m_Name: Ash
-      eventAttributes:
-        content: []
-    exit:
-      time: 1.67
-      timeSpace: 0
-      name:
-        m_Name: AshStop
-      eventAttributes:
-        content: []
-  singleEvents: []
-  references:
-    version: 2
-    RefIds: []
 --- !u!114 &7726289844230493038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3554,3 +3506,74 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &9201987378948053493
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488c20dddec813547afc71a1f46c10dd, type: 3}
+  m_Name: VisualEffectControlClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  scrubbing: 1
+  startSeed: 0
+  reinit: 3
+  prewarm:
+    enable: 0
+    stepCount: 20
+    deltaTime: 0.05
+    eventName:
+      m_Name: OnPlay
+  clipEvents:
+  - editorColor: {r: 1, g: 0.4725827, b: 0, a: 1}
+    enter:
+      time: 0
+      timeSpace: 0
+      name:
+        m_Name: OnPlay
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.2
+      timeSpace: 0
+      name:
+        m_Name: OnStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    enter:
+      time: 0.4
+      timeSpace: 0
+      name:
+        m_Name: Smoke
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.46
+      timeSpace: 0
+      name:
+        m_Name: SmokeStop
+      eventAttributes:
+        content: []
+  - editorColor: {r: 0, g: 0, b: 0, a: 1}
+    enter:
+      time: 0.59
+      timeSpace: 0
+      name:
+        m_Name: Ash
+      eventAttributes:
+        content: []
+    exit:
+      time: 1.67
+      timeSpace: 0
+      name:
+        m_Name: AshStop
+      eventAttributes:
+        content: []
+  singleEvents: []
+  references:
+    version: 2
+    RefIds: []
