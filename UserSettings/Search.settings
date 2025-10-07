@@ -1,4 +1,5 @@
 trackSelection = true
+refreshSearchWindowsInPlayMode = false
 fetchPreview = true
 defaultFlags = 0
 keepOpen = false
@@ -11,8 +12,8 @@ scopes = {
 	"OpenInspectorPreview.384D8B0E" = "0"
 	"currentGroup.384D8B0E" = "all"
 	"picker_window_position_offset.74AD8FDB" = "1279;333;320;550"
-	"picker_search_text.74AD8FDB" = "par"
-	"last_search.74AD8FDB" = "par"
+	"picker_search_text.74AD8FDB" = "magic "
+	"last_search.74AD8FDB" = "magic "
 	"OpenInspectorPreview.74AD8FDB" = "0"
 	"currentGroup.74AD8FDB" = "all"
 }
@@ -57,6 +58,11 @@ providers = {
 		priority = 50
 		defaultAction = null
 	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
 }
 objectSelectors = {
 }
@@ -73,3 +79,5 @@ queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
