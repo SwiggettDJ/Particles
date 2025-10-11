@@ -7884,7 +7884,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661615419}
   - {fileID: 8926484042661615777}
-  m_UIPosition: {x: 5012, y: 1454}
+  m_UIPosition: {x: 5012, y: 1569}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -7951,7 +7951,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661615716}
   - {fileID: 8926484042661616009}
-  m_UIPosition: {x: 5012, y: 1921}
+  m_UIPosition: {x: 5012, y: 2036}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11295,7 +11295,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661615395}
   m_Children: []
-  m_UIPosition: {x: 0, y: 0}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12431,7 +12431,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Plane, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":0.0,"y":-0.10000000149011612,"z":0.0},"normal":{"x":0.0,"y":1.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":0.0,"y":0.0,"z":0.0},"normal":{"x":0.0,"y":1.0,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: Plane
@@ -14109,7 +14109,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615864}
       inputSlot: {fileID: 8926484042661615858}
-    position: {x: 4852.4644, y: 2119.0347}
+    position: {x: 4852, y: 2234}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615864
@@ -15996,7 +15996,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661615395}
   m_Children: []
-  m_UIPosition: {x: 0, y: 0}
+  m_UIPosition: {x: 0, y: 111}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -16133,7 +16133,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 4738, y: 2371}
+  m_UIPosition: {x: 4738, y: 2486}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
