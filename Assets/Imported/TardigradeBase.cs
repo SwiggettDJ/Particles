@@ -214,18 +214,21 @@ namespace Imported
             {
                 //Default Death
                 case DeathType.Default:
-                    Instantiate(bonesPrefab, transform.position, transform.rotation);
+                    GameObject prefab = Instantiate(bonesPrefab, Vector3.zero, transform.rotation);
+                    prefab.transform.position = transform.position;
                     GetComponent<SquishVFXBehaviour>().Play();
                     break;
                 case DeathType.Lava:
                     break;
                 case DeathType.Burn:
-                    GameObject tempBurnBody = Instantiate(burningBodyPrefab, transform.position, transform.rotation);
+                    GameObject tempBurnBody = Instantiate(burningBodyPrefab, Vector3.zero, transform.rotation);
                     tempBurnBody.GetComponent<DeadBodyConversion>().ConvertBurningBody(_type);
+                    tempBurnBody.transform.position = transform.position;
                     break;
                 case DeathType.Freeze:
-                    GameObject tempIceBody = Instantiate(frozenBodyPrefab, transform.position, transform.rotation);
+                    GameObject tempIceBody = Instantiate(frozenBodyPrefab, Vector3.zero, transform.rotation);
                     tempIceBody.GetComponent<DeadBodyConversion>().ConvertFreezingBody(_type);
+                    tempIceBody.transform.position = transform.position;
                     break;
                 case DeathType.None:
                     break;
